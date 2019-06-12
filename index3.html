@@ -5,92 +5,284 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet " href="css/estilo2.css ">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
 
     <title>Lugares turisticos</title>
 </head>
+<style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif
+    }
+</style>
+<style>
+    .mySlides {
+        display: none;
+    }
+</style>
 
 <body>
-    <ul>
-        <li><a href="index.html">Datos Personales</a></li>
-        <li><a href="index2.html">Informacion de Contactos</a></li>
-    </ul>
-    <article>
-        <table width="1000" border 5px cellpadding="10" Cellspanding="20" background="">
-            <th colspan="10" scope="colgroup">LUGARES TURISTICOS</th>
-            <tr>
-                <td>Lugar</td>
-                <td>Imagen</td>
-                <td>Contactos</td>
-            </tr>
-            <tr>
-                <td>CHAN CHAN
-                    <p>La visita a la ciudadela de chan chan es obligatoria en toda visita a <cite>Trujillo</cite> Toma cerca de una hora la visita guiada. Recomiendo contratar guia, caso contrario no entenderas el alcance de lo que estas visitando, los
-                        guias estan disponibles al ingreso de la ciudadela y el costo del ingreso es tan bajo que compensa con el guia. Vayan protegidos para el sol siempre, en cualquier epoca del ano y tomen en cuenta que cierra a las 4pm.</p>
-                </td>
-                <td><img src="imagenes/chan-chan.jpg"></td>
-                <td>
-                    <ul type="circle">
-                        <li>Pagina Web:
-                            <a href="https://chanchan.gob.pe/" targer="_blank">chanchan.gob.pe  </a><br>
-                        </li>
-                        <li>Telefonos: 044785898 - 985562448</li>
-                    </ul>
-                </td>
+    <nav class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <div class="w3-bar w3-black">
 
-            </tr>
-            <tr>
-                <td>Huaca del Sol y la Luna
-                    <p>En trujillo en el tiempo de los huaqueros, se decía que cada promontorio o cerro aislado era una huaca, y no se estaba lejos de la realidad, al sur de Trujillo en Moche se encuentran estas dos huacas, que al creer inicialmente que
-                        eran ruinas incaicas recibieron el nombre de Sol y Luna, pero posteriormente se confirmó que son de la Cultura Moche. Son dos piramides totalmente construidas en abobe, bloque artesanal de forma similar a un ladrillo pero mas grande,
-                        moldeado a base de barro, paja y secado al sol. Si se tiene poco tiempo, lo mas importante a visitar en estas huacas son sus murales multicolores. En el entorno de este complejo arqueológico se ha formado todo un oferta comercial
-                        variada promovida por los lugareños, los llamados mocheros habitantes del valle de Moche, que se dicen descendientes de esta cultura y que expresan su ascendencia mediante artesanías, repujados en cuero, talla en madera y piedra
-                        así como canastas tejidas con fibras vegetales</p>
-                </td>
-                <td><img src="imagenes/huaca-del-sol.jpg"></td>
-                <td>PAgina Web
-                    <a href="http://www.huacasdemoche.pe/" targer="_blank">chuacasdemoche  </a><br> Telefonos: 044788888-- 94785668
-                </td>
-            </tr>
-            <tr>
-                <td>La Plaza de Armas de Trujillo
-                    <p>Finalmente después de tiempo esta hermosa plaza luce totalmente renovada, su piso de mármol fue reemplazado por cemento bruñado, un cambio que no esta acorde con la majestuosidad de su monumento central. Sus hermosas farolas forjadas
-                        en hierro fundido de estilo Colonial, alumbran como antaño y de noche le dan un ambiente relajado. En el centro de la plaza se ubica el Monumento de La Libertad, monumento de 3 cuerpos, con varias placa conmemorativas Los domingos
-                        como toda plaza Mayor, es escenario de ceremonias cívicas patrióticas, con izamiento de la bandera, marchas militares y escolares, es también el centro de cualquier celebración o evento local o regional. Los fines de semana es
-                        escenario de actividades culturales.</p>
+                <a href="index3.html" class="w3-bar-item w3-button w3-mobile w3-right">LUGARES</a>
+                <a href="index2.html " class="w3-bar-item w3-button w3-mobile w3-right">CONTACTOS</a>
+                <a href="index.html" class="w3-bar-item w3-button w3-mobile w3-right">INFORMACION PERSONAL</a>
+            </div>
+        </div>
+    </nav>
+    <header class="w3-container w3-theme w3-padding" id="myHeader"></header>
+    <div class="w3-display-container w3-text-white">
 
-                </td>
-                <td><img src="imagenes/plaza-de-armas-de-trujillo.jpg"> </td>
-                <td>
-                    <ul type="circle">
-                        <li>Centro historico de Trujillo, Trujillo, Perú</li>
-                        <li>Pagina Web:
-                            <a href="https://www.trujillodelperu.com/plazas.htm" targer="_blank">PlazaDeArmas </a><br>
-                        </li>
-                        <li>Telefonos: 044785898 - 985562448</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>La casa del Juguete
-                    <p> Muñecas, Maquetas trenes, soldaditos de plomo.A solo dos cuadras de la Plaza Mayor sobre la calle Independencia, se ubica este pequeño mundo de juguetes emprendimiento privado del artista plástico Gerardo Chavez, una colección de caballitos
-                        de madera, muñecas de variada, silbatos, marionetas, soldaditos de plomo, trenes eléctricos, sonajeros, y miles de juguetes desde la época prehispánica hasta lo 50s. El juguetes más antiguos es un silbato de la cultura Virú, con
-                        mas de 2,300 años de antigüedad . Nos gustó tanto en nuestra anterior visita, que esta vez trajimos a nuestro nieto para que lo visite.</p>
-                </td>
-                <td><img src="imagenes/sala-femenina-munecas.jpg"> </td>
-                <td>
-                    <ul type="circle">
-                        <li> Jr. Independencia 705, Trujillo, Perú </li>
-                        <li>Pagina Web:
-                            <a href="https://www.trujillodelperu.com/plazas.htm" targer="_blank">Lacasadeljuguete </a><br>
-                        </li>
-                        <li>Telefonos: 044785898 - 985562448</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </article>
+        <img src="imagenes/libertad.jpg" alt="Lights" style="width:100% ;height: 400px;">
 
+        <div class=" w3-display-middle w3-center ">
+            <h4><b>BIENVENIDO</b></h4>
+            <h1 class="w3-xxxlarge w3-animate-bottom ">LUGARES TURISTICOS DE LA LIBERTAD</h1>
+            <div class="w3-padding-32 ">
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+
+    <div class="w3-row-padding w3-center w3-margin-top">
+        <div class="w3-third">
+            <div class="w3-card w3-container" style="min-height:460px;; height: 600px ">
+                <br>
+                <h3><b>CHAN CHAN</b></h3><br>
+                <div class="w3-content w3-display-container">
+                    <div class="w3-content w3-section w3-border " style="max-width:500px; padding:6px" alt="Norway ">
+                        <img class="mySlides " src="imagenes/c01.jpg " style="width:100%; height: 250px">
+                        <img class="mySlides " src="imagenes/c1.jpg" style="width:100% ; height: 250px">
+                        <img class="mySlides " src="imagenes/c2.jpg " style="width:100%; height: 250px">
+                        <img class="mySlides " src="imagenes/c3.jpg " style="width:100%; height: 250px ">
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+
+                    <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                        }
+
+                        function showDivs(n) {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {
+                                slideIndex = 1
+                            }
+                            if (n < 1) {
+                                slideIndex = x.length
+                            }
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            x[slideIndex - 1].style.display = "block";
+                        }
+                    </script>
+                </div>
+
+                <p ALIGN="justify">La visita a la ciudadela de chan chan es obligatoria en toda visita a <cite>Trujillo</cite> Toma cerca de una hora la visita guiada. Recomiendo contratar guia, caso contrario no entenderas el alcance de lo que estas visitando, los guias
+                    estan disponibles al ingreso de la ciudadela y el costo del ingreso es tan bajo que compensa con el guia. </p>
+
+                <p>Contactos</p>
+                <a href="https://chanchan.gob.pe/ " class="fa fa-google" target="_blank "></a>
+                <a href="https://www.facebook.com/minceturperu/" class="fa fa-facebook" target="_blank "></a>
+                <a href="https://twitter.com/MinCulturaPe?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter" target="_blank"></a>
+                <h3><b>Telefonos: 044785898 - 985562448</b></h3>
+
+
+
+            </div>
+        </div>
+
+        <div class=" w3-third ">
+            <div class="w3-card w3-container " style="min-height:460px ; height: 600px">
+                <br>
+                <h3><b>HUACA DEL SOL Y LA LUNA</b></h3><br>
+
+                <div class="w3-content w3-display-container ">
+                    <div class="w3-content w3-section w3-border " style="max-width:500px; padding:6px " alt="Norway ">
+                        <img class="mySlides1 " src="imagenes/s1.jpg" style="width:100%; height: 250px">
+                        <img class="mySlides1 " src="imagenes/s2.jpg " style="width:100%; height: 250px">
+                        <img class="mySlides1 " src="imagenes/s3.jpg " style="width:100%; height: 250px">
+                        <img class="mySlides1 " src="imagenes/s5.jpg " style="width:100%; height: 250px">
+                        <button class="w3-button w3-black w3-display-left " onclick="plusDivs1(-1) ">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right " onclick="plusDivs1(1) ">&#10095;</button>
+                    </div>
+
+                    <script>
+                        var slideIndex = 1;
+                        showDivs1(slideIndex);
+
+                        function plusDivs1(n1) {
+                            showDivs1(slideIndex += n1);
+                        }
+
+                        function showDivs1(n1) {
+                            var i1;
+                            var x1 = document.getElementsByClassName("mySlides1 ");
+                            if (n1 > x1.length) {
+                                slideIndex = 1
+                            }
+                            if (n1 < 1) {
+                                slideIndex = x1.length
+                            }
+                            for (i1 = 0; i1 < x1.length; i1++) {
+                                x1[i1].style.display = "none ";
+                            }
+                            x1[slideIndex - 1].style.display = "block ";
+                        }
+                    </script>
+                </div>
+
+                <br>
+                <p align="justify ">Las Huacas del Sol y de la Luna son un complejo arqueológico ubicado en la costa norte del Perú, considerado como un santuario moche. Está constituido por un conjunto de monumentos situados a unos cinco kilómetros al sur de Trujillo, en
+                    el distrito de Moche</p>
+
+                <p>Contactos</p>
+                <a href="https://chanchan.gob.pe/ " class="fa fa-google" target="_blank "></a>
+                <a href="https://www.facebook.com/minceturperu/" class="fa fa-facebook" target="_blank "></a>
+                <a href="https://twitter.com/MinCulturaPe?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter" target="_blank"></a>
+                <h3><b>Telefonos: 044785898 - 985562448</b></h3>
+            </div>
+        </div>
+
+        <div class="w3-third ">
+            <div class="w3-card w3-container " style="min-height:460px ; height: 600px">
+                <br>
+                <h3><b>HUACA EL BRUJO</b></h3><br>
+
+                <div class="w3-content w3-display-container ">
+                    <div class="w3-content w3-section w3-border " style="max-width:500px; padding:6px " alt="Norway ">
+                        <img class="mySlides2 " src="imagenes/b1.jpg " style="width:100%; height: 250px">
+                        <img class="mySlides2 " src="imagenes/b2.jpg " style="width:100%; height: 250px ">
+                        <img class="mySlides2 " src="imagenes/b3.jpg " style="width:100%; height: 250px ">
+                        <img class="mySlides2 " src="imagenes/b3.jpg " style="width:100%; height: 250px ">
+
+                        <button class="w3-button w3-black w3-display-left " onclick="plusDivs2(-1) ">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right " onclick="plusDivs2(1) ">&#10095;</button>
+                    </div>
+
+                    <script>
+                        var slideIndex = 1;
+                        showDivs2(slideIndex);
+
+                        function plusDivs2(n1) {
+                            showDivs2(slideIndex += n1);
+                        }
+
+                        function showDivs2(n1) {
+                            var i1;
+                            var x1 = document.getElementsByClassName("mySlides2 ");
+                            if (n1 > x1.length) {
+                                slideIndex = 1
+                            }
+                            if (n1 < 1) {
+                                slideIndex = x1.length
+                            }
+                            for (i1 = 0; i1 < x1.length; i1++) {
+                                x1[i1].style.display = "none ";
+                            }
+                            x1[slideIndex - 1].style.display = "block ";
+                        }
+                    </script>
+                </div>
+
+                <P ALIGN="justify ">El Brujo es uno de los complejos arqueológicos más importantes y antiguos de la costa norte del Perú. Está conformado principalmente por la Huaca Prieta, la Huaca Cao Viejo y la Huaca Cortada</P>
+                <br>
+                <br>
+                <p>Contactos</p>
+                <a href="https://chanchan.gob.pe/ " class="fa fa-google" target="_blank "></a>
+                <a href="https://www.facebook.com/minceturperu/" class="fa fa-facebook" target="_blank "></a>
+                <a href="https://twitter.com/MinCulturaPe?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter" target="_blank"></a>
+                <h3><b>Telefonos: 044785898 - 985562448</b></h3>
+            </div>
+        </div>
+        <br>
+        <div class="w3-row-padding w3-center w3-margin-top">
+            <div class="w3-card w3-container " style="min-height:100%; height: 600px ">
+                <br>
+                <h3><b>TRUJILLO</b></h3><br>
+
+                <div class="w3-content w3-display-container ">
+                    <div class="w3-content w3-section w3-border " style="max-width:500px; padding:6px " alt="Norway ">
+                        <img class="mySlides3 " src="imagenes/t1.jpg " style="width:100%; height: 350px ">
+                        <img class="mySlides3 " src="imagenes/t2.jpg " style="width:100%; height: 350px ">
+                        <img class="mySlides3 " src="imagenes/h1.jpg " style="width:100%; height: 350px ">
+                        <img class="mySlides3 " src="imagenes/h2.jpg " style="width:100%; height: 350px ">
+
+                        <button class="w3-button w3-black w3-display-left " onclick="plusDivs3(-1) ">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right " onclick="plusDivs3(1) ">&#10095;</button>
+                    </div>
+
+                    <script>
+                        var slideIndex = 1;
+                        showDivs3(slideIndex);
+
+                        function plusDivs3(n1) {
+                            showDivs3(slideIndex += n1);
+                        }
+
+                        function showDivs3(n1) {
+                            var i1;
+                            var x1 = document.getElementsByClassName("mySlides3 ");
+                            if (n1 > x1.length) {
+                                slideIndex = 1
+                            }
+                            if (n1 < 1) {
+                                slideIndex = x1.length
+                            }
+                            for (i1 = 0; i1 < x1.length; i1++) {
+                                x1[i1].style.display = "none ";
+                            }
+                            x1[slideIndex - 1].style.display = "block ";
+                        }
+                    </script>
+                </div>
+
+                <P ALIGN="justify ">Trujillo es una ciudad del noroeste de Perú conocida por la marinera (danza tradicional de la nación). En el centro colonial está la majestuosa catedral de Trujillo, cuya fachada es de color amarillo vivo, y la azulada Casa Urquiaga. Cerca
+                    de allí se halla el palacio neoclásico Iturregui, que tiene estatuas de mármol italiano y un patio. Al oeste de la ciudad se encuentra el enorme complejo de adobe de Chan Chan, una ciudad abandonada que en su día fue el hogar del antiguo
+                    reino chimú</P>
+
+                <a href="https://chanchan.gob.pe/ " class="fa fa-google" target="_blank "></a>
+                <a href="https://www.facebook.com/minceturperu/" class="fa fa-facebook" target="_blank "></a>
+                <a href="https://twitter.com/MinCulturaPe?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter" target="_blank"></a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="w3-bar w3-black  w3-teal w3-center w3-margin-top ">
+        <h1>Redes Sociales</h1>
+        <a href="https://www.facebook.com/kristmont.montero?ref=bookmarks" class="fa fa-facebook" target="_blank "></a>
+        <a href="#" class="fa fa-twitter" target="_blank "></a>
+        <a href="https://www.instagram.com/?hl=es-la" class="fa fa-instagram" target="_blank "></a>
+        <a href="https://plus.google.com/u/0/109493709320933040350 " class="fa fa-google" target="_blank "></a>
+        <br>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
 </body>
 
 </html>

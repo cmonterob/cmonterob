@@ -5,78 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet " href="css/estilo.css ">
-    <link rel="stylesheet " href="css/estilo2.css ">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <title>contactos </title>
 </head>
 
 <body>
 
-    <nav class="menu " align="center ">
-        <ul>
-            <li><a href="index.html">Información Personal</a></li>
-            <li>
-                <a href="index3.html">Lugares Turisticos</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <div class="w3-bar w3-black">
+
+                <a href="index3.html" class="w3-bar-item w3-button w3-mobile w3-right">LUGARES</a>
+                <a href="index2.html " class="w3-bar-item w3-button w3-mobile w3-right">CONTACTOS</a>
+                <a href="index.html" class="w3-bar-item w3-button w3-mobile w3-right">INFORMACION PERSONAL</a>
+            </div>
+        </div>
+    </div>
+
     <header>
-        <img src="imagenes/sm.jpg ">
+        <img src="imagenes/madagascar.jpg" style=" width:100%;  height:500px">
+        <div class=" w3-display-middle w3-center ">
+            <h1 class="title is-1 has-text-danger	">MIS CONTACTOS</h1>
+        </div>
     </header>
-    <article>
-        <header>
-            <h1>Mis Contactos</h1>
-        </header>
-        <table width="1000" border="10">
+
+    <div class="column is-one-fifth  is-mobile is-selected">
+        <p class="notification is-success">CONTACTOS</p>
+    </div>
+
+
+    <table class="table">
+        <thead class="title is-5 ">
             <tr>
-                <td>CONTACTOS
+                <th><abbr title="Position ">°</abbr></th>
+                <th>CONTACTO</th>
+                <th><abbr title="Played ">NUMERO TELEFONICO</abbr></th>
+                <th><abbr title="Won">CORREO</abbr></th>
+                <th><abbr title="Drawn">FOTO</abbr></th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>
+                    <p>Ana Montero</p>
                 </td>
-        </table>
-        <table width="1000" border="5" cellpadding="10" Cellspanding="200">
-
-            <tr>
-                <th colspan="10" scope="colgroup">CONTACTOS</th>
-            </tr>
-            </tr>
-            <tr></tr>
-            <td>NOMBRE</td>
-            <td>CELULAR</td>
-            <td>CORREO</td>
-            <td>FOTO </td>
-
-            </tr>
-            <tr>
-                <td>Ana Montero</td>
                 <td>94578452</td>
                 <td>anamont@gmail.com</td>
-                <td><img src="imagenes/1.jpg"></td>
+                <td>
+                    <figure class="image is-128x128">
+                        <img class="is-rounded" src="imagenes/1.jpg">
+                    </figure>
+                </td>
             </tr>
             <tr>
-                <td>Axl Espinoza</td>
+                <th>2</th>
+                <td>
+                    <P>Axl Espinoza</P>
+                </td>
                 <td>98565844</td>
                 <td>axlespinoza12@gmail.com</td>
-                <td><img src="imagenes/3.jpg"></td>
+                <td>
+                    <figure class="image is-128x128">
+                        <img class="is-rounded" src="imagenes/3.png">
+                    </figure>
+                </td>
             </tr>
             <tr>
+                <th>3</th>
                 <td>Rafita Silva</td>
                 <td>98548655</td>
                 <td>rafc3435@gmail.com</td>
-                <td><img src="imagenes/2.jpg"></td>
-
+                <td>
+                    <figure class="image is-128x128">
+                        <img class="is-rounded" src="imagenes/2.jpg">
+                    </figure>
+                </td>
             </tr>
-            <tr>
+            <tr class="is-selected">
+                <th>4</th>
                 <td>Julio Rabanal</td>
                 <td>978565223</td>
                 <td>jrabanal12@gmail.com</td>
-                <td><img src="imagenes/4.png"></td>
+                <td>
+                    <figure class="image is-128x128">
+                        <img class="is-rounded" src="imagenes/4.jpg">
+                    </figure>
+                </td>
             </tr>
-        </table>
-    </article>
+            <tr>
+                <th>4</th>
+                <td>Jose Montero</td>
+                <td>97856524</td>
+                <td>jmontero@gmail.com</td>
+                <td>
+                    <figure class="image is-128x128">
+                        <img class="is-rounded" src="imagenes/m4.jpg">
+                    </figure>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
     <footer>
         <address>Autor: Cristian Montero Briceño(UNC-RAFCRI) 
                     <abbr title="Universidad Nacional de Cajamarca ">UNC.</abbr>
               </address>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
