@@ -216,58 +216,59 @@
             </div>
         </div>
         <br>
-        <div class="w3-row-padding w3-center w3-margin-top">
-            <div class="w3-card w3-container " style="min-height:100%; height: 600px ">
-                <br>
-                <h3><b>TRUJILLO</b></h3><br>
+        <div>
+            <div class="w3-row-padding w3-center w3-margin-top">
+                <div class="w3-card w3-container " style="min-height:100%; height: 600px ">
+                    <br>
+                    <h3><b>TRUJILLO</b></h3><br>
 
-                <div class="w3-content w3-display-container ">
-                    <div class="w3-content w3-section w3-border " style="max-width:500px; padding:6px " alt="Norway ">
-                        <img class="mySlides3 " src="imagenes/t1.jpg " style="width:100%; height: 350px ">
-                        <img class="mySlides3 " src="imagenes/t2.jpg " style="width:100%; height: 350px ">
-                        <img class="mySlides3 " src="imagenes/h1.jpg " style="width:100%; height: 350px ">
-                        <img class="mySlides3 " src="imagenes/h2.jpg " style="width:100%; height: 350px ">
+                    <div class="w3-content w3-display-container ">
+                        <div class="w3-content w3-section w3-border " style="max-width:500px; padding:6px " alt="Norway ">
+                            <img class="mySlides3 " src="imagenes/t1.jpg " style="width:100%; height: 350px ">
+                            <img class="mySlides3 " src="imagenes/t2.jpg " style="width:100%; height: 350px ">
+                            <img class="mySlides3 " src="imagenes/h1.jpg " style="width:100%; height: 350px ">
+                            <img class="mySlides3 " src="imagenes/h2.jpg " style="width:100%; height: 350px ">
 
-                        <button class="w3-button w3-black w3-display-left " onclick="plusDivs3(-1) ">&#10094;</button>
-                        <button class="w3-button w3-black w3-display-right " onclick="plusDivs3(1) ">&#10095;</button>
+                            <button class="w3-button w3-black w3-display-left " onclick="plusDivs3(-1) ">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right " onclick="plusDivs3(1) ">&#10095;</button>
+                        </div>
+
+                        <script>
+                            var slideIndex = 1;
+                            showDivs3(slideIndex);
+
+                            function plusDivs3(n1) {
+                                showDivs3(slideIndex += n1);
+                            }
+
+                            function showDivs3(n1) {
+                                var i1;
+                                var x1 = document.getElementsByClassName("mySlides3 ");
+                                if (n1 > x1.length) {
+                                    slideIndex = 1
+                                }
+                                if (n1 < 1) {
+                                    slideIndex = x1.length
+                                }
+                                for (i1 = 0; i1 < x1.length; i1++) {
+                                    x1[i1].style.display = "none ";
+                                }
+                                x1[slideIndex - 1].style.display = "block ";
+                            }
+                        </script>
                     </div>
 
-                    <script>
-                        var slideIndex = 1;
-                        showDivs3(slideIndex);
+                    <P ALIGN="justify ">Trujillo es una ciudad del noroeste de Perú conocida por la marinera (danza tradicional de la nación). En el centro colonial está la majestuosa catedral de Trujillo, cuya fachada es de color amarillo vivo, y la azulada Casa Urquiaga.
+                        Cerca de allí se halla el palacio neoclásico Iturregui, que tiene estatuas de mármol italiano y un patio. Al oeste de la ciudad se encuentra el enorme complejo de adobe de Chan Chan, una ciudad abandonada que en su día fue el hogar
+                        del antiguo reino chimú</P>
 
-                        function plusDivs3(n1) {
-                            showDivs3(slideIndex += n1);
-                        }
+                    <a href="https://chanchan.gob.pe/ " class="fa fa-google" target="_blank "></a>
+                    <a href="https://www.facebook.com/minceturperu/" class="fa fa-facebook" target="_blank "></a>
+                    <a href="https://twitter.com/MinCulturaPe?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter" target="_blank"></a>
 
-                        function showDivs3(n1) {
-                            var i1;
-                            var x1 = document.getElementsByClassName("mySlides3 ");
-                            if (n1 > x1.length) {
-                                slideIndex = 1
-                            }
-                            if (n1 < 1) {
-                                slideIndex = x1.length
-                            }
-                            for (i1 = 0; i1 < x1.length; i1++) {
-                                x1[i1].style.display = "none ";
-                            }
-                            x1[slideIndex - 1].style.display = "block ";
-                        }
-                    </script>
                 </div>
-
-                <P ALIGN="justify ">Trujillo es una ciudad del noroeste de Perú conocida por la marinera (danza tradicional de la nación). En el centro colonial está la majestuosa catedral de Trujillo, cuya fachada es de color amarillo vivo, y la azulada Casa Urquiaga. Cerca
-                    de allí se halla el palacio neoclásico Iturregui, que tiene estatuas de mármol italiano y un patio. Al oeste de la ciudad se encuentra el enorme complejo de adobe de Chan Chan, una ciudad abandonada que en su día fue el hogar del antiguo
-                    reino chimú</P>
-
-                <a href="https://chanchan.gob.pe/ " class="fa fa-google" target="_blank "></a>
-                <a href="https://www.facebook.com/minceturperu/" class="fa fa-facebook" target="_blank "></a>
-                <a href="https://twitter.com/MinCulturaPe?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter" target="_blank"></a>
-
             </div>
         </div>
-
     </div>
 
     <footer class="w3-bar w3-black  w3-teal w3-center w3-margin-top ">
